@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'zen';
+  src: url(/src/assets/fonts/ZenKurenaido-Regular.ttf);
+}
+@font-face {
+  font-family: 'cabin';
+  src: url(/src/assets/fonts/Cabin-Regular.ttf);
+}
+
+body {
+  font-family: 'zen';
+  background-color: #04151f;
+  --text-color: rgb(253, 253, 253);
+  --link-color: #021cb0;
+  --nav-color: #ccac00;
+  color: var(--text-color);
+}
+
+h2 {
+  text-align: center;
+  font-size: calc(0.4em + 2vw);
+  font-family: 'zen';
+  margin-bottom: 10px;
+}
+
+a:hover {
+  color: var(--nav-color);
+}
+
+.new-line {
+  white-space: pre-line;
+}
+
+.css-1f6lpc1-ShowMore {
+  color: var(--link-color);
+}
+
+.card-sub-title {
+  color: var(--link-color);
+}
+
+.timeline-item-title {
+  word-wrap: break-word;
+}
