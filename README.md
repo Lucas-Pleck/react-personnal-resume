@@ -9,20 +9,20 @@ git clone git@github.com:Lucas-Pleck/react-personnal-resume.git
 2. Run the project
 ```shell
 cd react-personnal-resume
-npm install
+vite
 or
 yarn 
 ```
 
 3. Dev
 ```shell
-npm run dev
+vite dev
 yarn dev
 ```
 
 3. Build
 ```shell
-npm run build
+vite build
 yarn build
 ```
 
